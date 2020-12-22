@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@*android:style/Widget.Material.ActionBar.TabView" />
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu" />
+    <style name="DurationNumberPicker" parent="@*android:style/Widget.Material.NumberPicker">
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_marginBottom">8.0dip</item>
+        <item name="android:headerBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:numbersTextColor">@*android:color/white</item>
+        <item name="android:numbersSelectorColor">@*android:color/dim_foreground_light</item>
+    </style>
+    <style name="Platform.V25.AppCompat" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:colorBackground">@*android:color/primary_dark_material_dark</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowElevation">0.5dip</item>
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="android:statusBarColor">@*android:color/primary_dark_material_dark</item>
+        <item name="android:navigationBarColor">@*android:color/primary_dark_material_dark</item>
+    </style>
+    <style name="Platform.V25.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:colorBackground">@*android:color/primary_dark_material_dark</item>
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowElevation">0.5dip</item>
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+        <item name="android:statusBarColor">@*android:color/primary_dark_material_dark</item>
+        <item name="android:navigationBarColor">@*android:color/primary_dark_material_dark</item>
+    </style>
+</resources>

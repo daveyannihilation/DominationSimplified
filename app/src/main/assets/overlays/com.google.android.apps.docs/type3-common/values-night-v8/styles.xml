@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionSheet">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="DarkSubtitleText">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="DialogTitleBlack" parent="@*android:style/TextAppearance.DialogWindowTitle">
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="HoloLikeButton" parent="@*android:style/Widget.Holo.Button.Borderless">
+        <item name="android:textAppearance">?*android:textAppearanceMedium</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorHintInverse">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="ProgressBar.Horizontal" parent="@*android:style/Widget.Material.ProgressBar.Horizontal">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:indeterminateBehavior">repeat</item>
+    </style>
+    <style name="ProgressBarSpinner" parent="@*android:style/Widget.Material.ProgressBar.Large">
+        <item name="android:indeterminateOnly">true</item>
+    </style>
+    <style name="WelcomeThemeBase" parent="@*android:style/Theme.Holo.NoActionBar">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+</resources>

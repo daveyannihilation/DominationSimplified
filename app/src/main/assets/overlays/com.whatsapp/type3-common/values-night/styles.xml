@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DescribeProblemInlineLink" parent="@*android:style/Widget.TextView">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff1976d2</item>
+    </style>
+    <style name="FullScreenDialogSeparator">
+        <item name="android:background">#ff388e3c</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">9.0dip</item>
+    </style>
+    <style name="List">
+        <item name="android:scrollbarStyle">insideOverlay</item>
+        <item name="android:fadingEdgeLength">8.0dip</item>
+        <item name="android:drawSelectorOnTop">false</item>
+        <item name="android:cacheColorHint">@*android:color/background_dark</item>
+        <item name="android:divider">#00000000</item>
+        <item name="android:dividerHeight">0.0px</item>
+    </style>
+    <style name="Platform.AppCompat.Light" parent="@*android:style/Theme.DeviceDefault.Light" />
+    <style name="VoipDebugParam">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabText" parent="@*android:style/Widget.Material.ActionBar.TabText" />
+    <style name="Base.Widget.AppCompat.Light.ActionBar.TabView" parent="@*android:style/Widget.Material.ActionBar.TabView" />
+    <style name="Base.Widget.AppCompat.Light.PopupMenu" parent="@*android:style/Widget.Material.PopupMenu" />
+    <style name="ClipboardNoticeWrapper">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:paddingTop">15.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="GBoardEditText">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:imeOptions">actionSearch</item>
+    </style>
+    <style name="KeyboardOverlay">
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:paddingStart">24.0dip</item>
+        <item name="android:paddingEnd">24.0dip</item>
+    </style>
+    <style name="KeyboardOverlayTitle">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">10.0dip</item>
+        <item name="android:paddingEnd">10.0dip</item>
+    </style>
+    <style name="LensChipsText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:maxWidth">168.0dip</item>
+        <item name="android:minWidth">52.0dip</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:fontFamily">google-sans-medium</item>
+        <item name="android:paddingEnd">12.0dip</item>
+    </style>
+    <style name="MigrationDescription">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorLink">#ff1976d2</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:paddingStart">28.0dip</item>
+        <item name="android:paddingEnd">28.0dip</item>
+    </style>
+    <style name="NativeLanguageList">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">0.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:layout_weight">800.0</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorHintInverse">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="ReceivingActivityDescription">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:textColorLink">#ff1976d2</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+    </style>
+    <style name="ReceivingDialogDescription">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:textColorLink">#ff1976d2</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:paddingStart">24.0dip</item>
+        <item name="android:paddingEnd">24.0dip</item>
+    </style>
+    <style name="SettingsTheme" parent="@*android:style/Theme.DeviceDefault.Light" />
+    <style name="SharingActivityText">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="SharingDescription">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20.0dip</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:paddingStart">24.0dip</item>
+        <item name="android:paddingEnd">24.0dip</item>
+    </style>
+    <style name="SharingDialogTitle">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:fontFamily">sans-medium</item>
+    </style>
+    <style name="TranslateNetworkStatus">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="VoiceDonationBannerView">
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:tag">.keyboard-voice-overlay</item>
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">38.0dip</item>
+    </style>
+</resources>

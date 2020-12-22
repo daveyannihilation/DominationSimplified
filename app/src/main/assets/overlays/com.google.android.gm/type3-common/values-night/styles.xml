@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AbstractComposeArea">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:background">@*android:color/primary_dark_material_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:animateLayoutChanges">true</item>
+        <item name="android:paddingStart">0.0dip</item>
+        <item name="android:paddingEnd">0.0dip</item>
+    </style>
+    <style name="AdBadgeBaseTextStyle">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="BadgeTextStyle">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+    <style name="BottomSheetDialogMenuItem">
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?*android:selectableItemBackground</item>
+        <item name="android:paddingTop">12.0dip</item>
+        <item name="android:paddingBottom">12.0dip</item>
+        <item name="android:paddingStart">12.0dip</item>
+        <item name="android:paddingEnd">12.0dip</item>
+    </style>
+    <style name="CalendarPromotionStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:paddingBottom">20.0dip</item>
+        <item name="android:layout_margin">8.0dip</item>
+        <item name="android:minHeight">60.0dip</item>
+        <item name="android:paddingEnd">20.0dip</item>
+    </style>
+    <style name="ComposeFieldLayout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:addStatesFromChildren">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="OverdrawTheme" parent="@*android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorHintInverse">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
+        <item name="android:navigationBarColor">@*android:color/primary_dark_material_dark</item>
+    </style>
+    <style name="PromoBadge">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">end|center</item>
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingTop">1.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:paddingBottom">1.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+        <item name="android:layout_marginBottom">3.0dip</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="RecipientEditTextViewBase" parent="@*android:attr/autoCompleteTextViewStyle">
+        <item name="android:textAppearance">?*android:textAppearanceMedium</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">32.0dip</item>
+        <item name="android:popupBackground">@*android:color/background_floating_material_dark</item>
+        <item name="android:inputType">textEmailAddress|textMultiLine</item>
+        <item name="android:textDirection">locale</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="SudAlertDialogTheme.Light" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert" />
+    <style name="SudGlifCardContainer">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+    </style>
+    <style name="UnseenCountBase">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">end|center</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">3.0dip</item>
+        <item name="android:layout_marginBottom">3.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:paddingStart">6.0dip</item>
+        <item name="android:paddingEnd">6.0dip</item>
+    </style>
+    <style name="VacationResponderActionButtonText">
+        <item name="android:textAppearance">?*android:actionMenuTextAppearance</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:padding">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="WorkTimePickerDialogStyle" parent="@*android:style/Widget.Material.TimePicker">
+        <item name="android:numbersBackgroundColor">@*android:color/background_dark</item>
+    </style>
+    <style name="WorkingHoursDisabledTheme">
+        <item name="android:colorControlNormal">@*android:color/secondary_text_default_material_dark</item>
+    </style>
+</resources>

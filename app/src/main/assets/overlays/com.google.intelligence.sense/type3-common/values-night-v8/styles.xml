@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SudGlifCardContainer">
+        <item name="android:background">@*android:color/background_floating_material_dark</item>
+        <item name="android:elevation">5.0dip</item>
+    </style>
+</resources>

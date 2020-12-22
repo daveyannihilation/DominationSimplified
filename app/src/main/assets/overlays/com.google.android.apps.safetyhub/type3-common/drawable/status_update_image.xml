@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="40.0dip" android:width="40.0dip">
+        <shape android:shape="oval">
+            <solid android:color="@*android:color/button_material_dark" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="24.0dip" android:width="24.0dip">
+        <vector android:tint="#ff1976d2" android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0">
+            <path android:fillColor="@*android:color/white" android:pathData="M21,7.65L21,3h-2v1.87c0.82,0.8 1.5,1.74 2,2.78zM15,7v2h4.41c-0.29,-0.73 -0.69,-1.4 -1.17,-2L15,7zM12,20c-4.42,0 -8,-3.58 -8,-8s3.58,-8 8,-8c2.53,0 4.77,1.17 6.24,3L19,7L19,4.87C17.19,3.1 14.72,2 11.99,2 6.47,2 2,6.48 2,12s4.47,10 9.99,10c4.48,0 8.27,-2.94 9.55,-7h-2.13c-1.18,2.93 -4.05,5 -7.41,5zM18.24,7c0.48,0.6 0.88,1.27 1.17,2L21,9L21,7.65c-0.5,-1.04 -1.18,-1.98 -2,-2.78L19,7h-0.76zM16.49,16.36L11,13.07L11,6.42h2v5.51l4.51,2.71z" />
+        </vector>
+    </item>
+</layer-list>

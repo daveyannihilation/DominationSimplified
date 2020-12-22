@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AgendaHubTheme" parent="@*android:style/Theme.Holo">
+        <item name="android:background">@*android:color/background_dark</item>
+    </style>
+    <style name="BaseWallpaperTheme" parent="@*android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowShowWallpaper">true</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="CardText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@*android:color/secondary_text_default_material_dark</item>
+        <item name="android:textColorLink">#ff1976d2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:shadowColor">@*android:color/white</item>
+        <item name="android:shadowDx">2.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+    <style name="EntryItemTitleText" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColorLink">#ff1976d2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+    </style>
+    <style name="GreetingMultiSuggestion" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:paddingRight">32.0dip</item>
+        <item name="android:paddingBottom">24.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:fontFamily">google-sans</item>
+        <item name="android:letterSpacing">-0.034</item>
+    </style>
+    <style name="GreetingSingleSuggestion" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textSize">32.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:lineSpacingExtra">5.0dip</item>
+        <item name="android:fontFamily">google-sans</item>
+        <item name="android:letterSpacing">-0.034</item>
+    </style>
+    <style name="HairlineDivider">
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="LabsFullScreenDialog">
+        <item name="android:windowBackground">@*android:color/background_dark</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
+    <style name="LanguagePicker.Title" parent="@*android:style/TextAppearance.Large">
+        <item name="android:textSize">24.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">google-sans</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="NudgeTextWithWhiteBackground" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:padding">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:fontFamily">GoogleSans</item>
+        <item name="android:textAlignment">gravity</item>
+    </style>
+    <style name="OnboardingVideoListActivityHeader">
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:elevation">4.0dip</item>
+    </style>
+    <style name="OpaHQHeader">
+        <item name="android:background">@*android:color/primary_material_dark</item>
+        <item name="android:elevation">4.0dip</item>
+    </style>
+    <style name="OpaLoadingContainer">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:paddingLeft">24.0dip</item>
+        <item name="android:paddingRight">24.0dip</item>
+        <item name="android:paddingBottom">24.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="OpaUdcSpinnerContainer">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:paddingLeft">24.0dip</item>
+        <item name="android:paddingRight">24.0dip</item>
+        <item name="android:paddingBottom">24.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="OpaValuePropContainer">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@*android:color/background_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="PaymentsSettingsIMOobeStyle">
+        <item name="android:colorPrimary">@*android:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*android:color/primary_dark_material_dark</item>
+    </style>
+    <style name="PaymentsSwitchListItem">
+        <item name="android:background">@*android:color/primary_dark_material_dark</item>
+        <item name="android:padding">18.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">60.0dip</item>
+    </style>
+    <style name="PaymentsSwitchListItemLarge">
+        <item name="android:background">@*android:color/primary_dark_material_dark</item>
+        <item name="android:paddingTop">20.0dip</item>
+        <item name="android:paddingBottom">20.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">60.0dip</item>
+        <item name="android:paddingStart">18.0dip</item>
+        <item name="android:paddingEnd">18.0dip</item>
+    </style>
+    <style name="Platform.V21.AppCompat.Light" parent="@*android:style/Theme.Material.NoActionBar">
+        <item name="android:textColorHintInverse">#ffbbbbbb</item>
+        <item name="android:textColorHint">#ffbbbbbb</item>
+        <item name="android:textColorLink">@*android:color/accent_material_dark</item>
+        <item name="android:textColorLinkInverse">@*android:color/accent_material_dark</item>
+    </style>
+    <style name="SearchPlate.SearchBox" parent="@*android:style/Widget.EditText">
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:backgroundTint">@null</item>
+    </style>
+    <style name="SeparatorLine">
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="SudAlertDialogTheme.Light" parent="@*android:style/Theme.DeviceDefault.Dialog.Alert" />
+    <style name="Theme.AssistantAndroidSettings" parent="@*android:style/Theme.DeviceDefault.Light" />
+    <style name="Theme.Shim.Light" parent="@*android:style/Theme.DeviceDefault.Light" />
+    <style name="Theme.Shim.Light.Dialog" parent="@*android:style/Theme.Material.Dialog" />
+    <style name="Theme.Shim.Light.NoActionBar" parent="@*android:style/Theme.Material.NoActionBar" />
+    <style name="Theme.Velvet.Card.TextAppearance.Small" parent="@*android:style/TextAppearance.Small">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+    </style>
+    <style name="Theme_Holo_Light_Dialog_Alert" parent="@*android:style/Theme.Holo.Dialog">
+        <item name="android:windowBackground">@*android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowMinWidthMajor">@*android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@*android:dimen/dialog_min_width_minor</item>
+    </style>
+    <style name="UrawTheme" parent="@*android:style/Theme.DeviceDefault.Light">
+        <item name="android:colorControlActivated">#ff1976d2</item>
+    </style>
+    <style name="Widget.Shim.Light.ActionBar" parent="@*android:style/Widget.Material.ActionBar" />
+    <style name="assistant_currency_widget_currency_name">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text"></item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:fontFamily">google-sans</item>
+    </style>
+    <style name="assistant_currency_widget_currency_value">
+        <item name="android:textSize">28.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text"></item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:inputType">numberDecimal</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:fontFamily">google-sans</item>
+        <item name="android:backgroundTint">#ffe64a19</item>
+    </style>
+    <style name="button_component_trailing_line_decoration">
+        <item name="android:background">@*android:color/button_material_dark</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="home_automation_card_title_style">
+        <item name="android:textSize">28.0sp</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_margin">0.0dip</item>
+        <item name="android:fontFamily">google-sans</item>
+    </style>
+    <style name="horizontal_divider">
+        <item name="android:background">@*android:color/transparent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="image_viewer_related_longpress_action_text">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+    </style>
+    <style name="onboardingPickImageButton">
+        <item name="android:textColor">#ff1976d2</item>
+        <item name="android:backgroundTint">@*android:color/button_material_dark</item>
+    </style>
+    <style name="qp_card_module">
+        <item name="android:backgroundTint">@*android:color/secondary_text_leanback_light</item>
+        <item name="android:minHeight">48.0dip</item>
+    </style>
+    <style name="reminder_edit_spinner_button" parent="@*android:style/Widget.Holo.Spinner">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@*android:color/white</item>
+        <item name="android:textColorHint">@*android:color/secondary_text_default_material_dark</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:paddingLeft">12.0dip</item>
+        <item name="android:paddingTop">24.0dip</item>
+        <item name="android:paddingRight">12.0dip</item>
+        <item name="android:paddingBottom">24.0dip</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginRight">12.0dip</item>
+    </style>
+    <style name="suggestion_chip_text">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textColor">#ffdddddd</item>
+        <item name="android:fontFamily">google-sans-medium</item>
+    </style>
+</resources>

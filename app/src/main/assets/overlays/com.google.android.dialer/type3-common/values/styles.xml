@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CallScreenTranscriptionQualityRatingIcon">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">18.0dip</item>
+        <item name="android:layout_height">18.0dip</item>
+        <item name="android:tint">@*android:color/white</item>
+    </style>
+    <style name="DeviceIdInfo">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@*android:color/white</item>
+    </style>
+</resources>

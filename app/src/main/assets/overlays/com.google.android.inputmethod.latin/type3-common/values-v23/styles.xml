@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SettingsButton" parent="@*android:style/Widget.Material.Button" />
+    <style name="SettingsButtonColored" parent="@*android:style/Widget.Material.Button" />
+</resources>
